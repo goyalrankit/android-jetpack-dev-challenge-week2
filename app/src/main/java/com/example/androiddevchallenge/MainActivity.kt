@@ -90,7 +90,7 @@ fun Countdown()
                 Log.d("TAG", "$defaultSeconds")
                 defaultSeconds--
                 displaySeconds = defaultSeconds
-                if(displaySeconds == 0L) {
+                if(displaySeconds <= 0) {
                     displaySeconds = 0L
                 }
             }
